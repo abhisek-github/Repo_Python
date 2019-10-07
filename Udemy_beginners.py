@@ -25,9 +25,9 @@ print((9-7)*2**3+10%6//-1*2-1)
 """
 v_str1=  "Who is \"Abhisek Mohanty\" ?"
 print(v_str1)
-
+"""
 # Accessing By Index
-
+"""
 v_str_in="Abhisek"
 print(v_str_in[0])
 print("abhisek"[2]) # "abhisek" 0 1 2 3 4 5 6
@@ -122,6 +122,7 @@ if 5 == 6:
 else:
     print("5 doesn't equal to 6")
 """
+"""
 if 1 == 2:
     print("Don't print this")
 elif 1 != 2:
@@ -130,13 +131,47 @@ elif 1 != 2:
 #    print("don't print")
 else:
     print("Don't print this either")
+"""
+""" Example_Dummy
+v_name_DOB = input("What's your name with DOB : ")
+v_state_pin = input("Where are you from ,Give your state and pin : ")
+if   v_name_DOB == "Abhisek1994" :
+    print("You are Abhisek Mohanty")
+    
+elif  v_state_pin == "Odisha756100" :
+    print("You are Abhisek Mohanty")
+else:
+    print("Enter a valid input , you are not recognise by me.")
+"""
+"""
+# Functions 
+# Functions # Defining and calling function with no parameter
+def f_demo() :
+    print("Abhisek 1st Function in Python")
+f_demo()
 
+# Ex-2 # Defining and calling function with single parameter
+def f_single_parm(a) :
+    print(a)
+f_single_parm(7)
+f_single_parm('h')
+"""
+# Ex-3 # Defining and calling function with multiple parameter
+"""
+def f_multi_param(a,b,c) :
+    d = a ** b
+    print(d + c)
+f_multi_param(2,3,4)
+"""
+# Ex-4 Calling a function inside of another function.
 
+def f_child(a,b) :
+    c = a + b
+    return c
 
-
-
-
-
-
+def f_parent(d,e) :
+    output = f_child(d,e)  #  calling the f_child function into f_parent function
+    return output
+print(f_parent(5,6))
 
 
