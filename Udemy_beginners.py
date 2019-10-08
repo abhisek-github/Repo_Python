@@ -143,14 +143,16 @@ elif  v_state_pin == "Odisha756100" :
 else:
     print("Enter a valid input , you are not recognise by me.")
 """
-"""
+
 # Functions 
 # Functions # Defining and calling function with no parameter
+"""
 def f_demo() :
     print("Abhisek 1st Function in Python")
 f_demo()
-
+"""
 # Ex-2 # Defining and calling function with single parameter
+"""
 def f_single_parm(a) :
     print(a)
 f_single_parm(7)
@@ -164,7 +166,7 @@ def f_multi_param(a,b,c) :
 f_multi_param(2,3,4)
 """
 # Ex-4 Calling a function inside of another function.
-
+"""
 def f_child(a,b) :
     c = a + b
     return c
@@ -173,5 +175,43 @@ def f_parent(d,e) :
     output = f_child(d,e)  #  calling the f_child function into f_parent function
     return output
 print(f_parent(5,6))
+"""
+# Ex -5
+"""
+def f_print() :
+    print("This is a Function")
+
+def f_first_int(a,b):
+    c = a * b
+    return c
+def f_second(d,e):
+    f = d * e
+    return f
+def f_cal(p1,p2,p3,p4):
+    print(f_second(f_first_int(p1,p2),p3 * p4))
+f_print()
+f_cal(2,3,4,2)
+"""
+# Importing Modules
+# Generic Import
+
+import random
+print(random.randint(1,10))
+
+# Function import
+
+from random import randint
+print(randint(20,30))
+
+
+
+
+
+
+
+
+
+
+
 
 
