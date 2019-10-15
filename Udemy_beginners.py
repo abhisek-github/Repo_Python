@@ -194,7 +194,7 @@ f_cal(2,3,4,2)
 """
 # Importing Modules
 # Generic Import
-
+"""
 import random
 print(random.randint(1,10))
 
@@ -202,16 +202,32 @@ print(random.randint(1,10))
 
 from random import randint
 print(randint(20,30))
-
-
-
-
-
-
-
-
-
-
-
-
+"""
+# Built - In function
+# abs()
+"""
+print(abs(-9))
+print(abs(0))
+print(abs(5))
+"""
+# type()
+"""
+print(type(1))
+print(type(3.5))
+print(type("Abhisek"))
+print(type(True))
+"""
+# max()
+"""
+print(max(3,4,5,6))
+print(max(3.5,6.8,6.5))
+print(max("ab","cd","xa"))
+print(max("a","b","z"))
+"""
+# min()
+"""
+print(min(3,4,5))
+print(min("a","b","g"))
+print(min(5.7,8.9,3.5))
+"""
 
