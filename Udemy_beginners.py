@@ -230,4 +230,58 @@ print(min(3,4,5))
 print(min("a","b","g"))
 print(min(5.7,8.9,3.5))
 """
+#Section - 6
+
+#Lists  # index re-assign  # .insert() # .remove()
+"""
+v_list = ["Abhisek","mani","sai",8]
+print(v_list[1])
+print(v_list[1].title() +" and "+ v_list[2].title())
+print(v_list[3])
+
+v_list[3]="Ashmin"
+print(v_list[3])
+v_list.append("Nag")
+v_list.insert(2,"Shobha")
+print(v_list)
+v_list.remove("Abhisek")
+print(v_list)
+"""
+# List Slicing
+"""
+v_list_sli = [2,3,4,5,6,7]
+v_list_sli_chr = ["A","B","C","D","E","G"]
+print(v_list_sli[2:]) # o/p  [4, 5, 6, 7]
+print(v_list_sli[:1]) # o/p [2]
+print(v_list_sli_chr[2:5]) # o/p ['C', 'D', 'E']
+print(v_list_sli_chr[:3]) #o/p ['A', 'B', 'C']
+print(v_list_sli_chr[0:]) # o/p ['A', 'B', 'C', 'D', 'E', 'G']
+#print(v_list_sli[len(v_list_sli)]) - error Index out of range
+"""
+# .index()
+"""
+v_indx = ["A","B","C","D","E","F"]
+print(v_indx.index("D"))
+v_index_fist = [1,1,0,1,1,1,0]
+print(v_index_fist.index(0))
+print(v_index_fist.index(1))
+"""
+# .pop()
+
+v_pp = ["A","B","C","D","E","F"]
+v_pp.pop(3)
+print(v_pp)
+v_pp.pop()
+print(v_pp)
+
+
+
+
+
+
+
+
+
+
+
 
