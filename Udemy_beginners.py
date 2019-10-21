@@ -298,7 +298,7 @@ for items in v_tuple :
     print(items)
 """
 #Ex - 2
-#"""
+"""
 v_list = [2,3,4,5]
 empty = []
 v_tup = ("Let"," it "," be ")
@@ -310,8 +310,17 @@ for string in v_tup :
     song +=string
 print(empty)
 print(song)
-#"""
+"""
+# Dictionary
 
+v_dict = {8: "abhisek" ,2: "ashmin",3: "manideep"}
+print(v_dict[8].title())
+print(v_dict[2].title())
+print(v_dict[3].title())
+
+v_dict_str = {"A": 2,"B": 4,"C": 40}
+print(v_dict_str["B"])
+print(v_dict_str["c"])
 
 
 
