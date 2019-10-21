@@ -267,17 +267,50 @@ print(v_index_fist.index(0))
 print(v_index_fist.index(1))
 """
 # .pop()
-
+"""
 v_pp = ["A","B","C","D","E","F"]
 v_pp.pop(3)
 print(v_pp)
 v_pp.pop()
 print(v_pp)
+"""
+# For loop and Tuples
+# Tuples
+"""
+v_tupl = (2,"abhisek","sai","manideep","shiva",1)
+print(v_tupl)
+print(v_tupl[1].title())
+#v_tupl.append("Nag") [Error = AttributeError: 'tuple' object has no attribute 'append']
+#v_tupl.insert(3,"AAA") [AttributeError: 'tuple' object has no attribute 'insert']
+print(v_tupl[:3])
+"""
+# For Loop
+# Ex - 1
+"""
+v_List = ["A","B","C","D","E","F"]
+v_tuple = (2,"abhisek","sai","manideep","shiva",1)
+print("1st For Loop")
+for elements in v_List :
+    print(elements)
 
+print("2nd For loop")
+for items in v_tuple :
+    print(items)
+"""
+#Ex - 2
+#"""
+v_list = [2,3,4,5]
+empty = []
+v_tup = ("Let"," it "," be ")
+song = ""
+for nums in v_list :
+    empty.append(nums*4)
 
-
-
-
+for string in v_tup :
+    song +=string
+print(empty)
+print(song)
+#"""
 
 
 
