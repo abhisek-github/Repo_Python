@@ -33,10 +33,25 @@ print(v_msg_var)
 #Changing ,adding,removing elements in list
 
 v_motorcycles = ['honda', 'yamaha', 'suzuki']
-print(v_motorcycles)
+print(v_motorcycles)    #   ['honda', 'yamaha', 'suzuki']
+# Changing
 v_motorcycles[0] = "Ducati"
-print(v_motorcycles)
-
+print(v_motorcycles)    #   ['Ducati', 'yamaha', 'suzuki']
+# Adding
+v_motorcycles.append('hero')
+print(v_motorcycles)    #   ['Ducati', 'yamaha', 'suzuki', 'hero']
+v_motorcycles.insert(2,'Bajaz')
+print(v_motorcycles)    #   ['Ducati', 'yamaha', 'Bajaz', 'suzuki', 'hero']
+# Removing
+del v_motorcycles[2]
+print(v_motorcycles)    #   ['Ducati', 'yamaha', 'suzuki', 'hero']
+# pop()
+v_popped = v_motorcycles.pop()
+print(v_popped) #   hero [here we will get the popped item]
+print(v_motorcycles)    #   ['Ducati', 'yamaha', 'suzuki']
+print("The last bike I owned was a"+" "+v_popped.title()+".")
+v_popped = v_motorcycles.pop(1)
+print(v_motorcycles)    #   ['Ducati', 'suzuki']
 
 
 
