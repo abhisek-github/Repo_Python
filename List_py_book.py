@@ -134,6 +134,7 @@ Hello Mr.Sourav,
 	 Welcome.
 """
 #Q.4 [You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.]
+"""
 v_guest_list = ["Adam","Scott","Allen","Miller","Jhon"]
 #for guest in v_guest_list :
 #    print("Welcome Mr."+guest+" "+"to my villa.")
@@ -150,6 +151,43 @@ print(v_guest_list)
 
 for update_guest_add in v_guest_list :
     print("Hello Mr."+update_guest_add+","+"\n"+"\t Welcome.")
+"""
+# Organizing a List.
+# sorting a list using sort() method:
+"""
+v_guest_list = ["Adam","Blake","Scott","Allen","Miller","Jhon"]
+v_guest_list.sort()
+print(v_guest_list)
+v_guest_list.sort(reverse=True)
+print(v_guest_list)
+v_guest_list.sort(reverse=False)
+print(v_guest_list)
+"""
+v_guest_list = ["Lucky","Adam","Blake","Scott","Allen","Miller","Jhon"]
+print("\nHere is the original list")
+print(v_guest_list)
+print("\nHere is the sorted list")
+print(sorted(v_guest_list))
+print("\nHere is original after sorted function")
+print(v_guest_list)
+v_cars = ['Bmw', 'audi', 'Toyota', "chai","bmw",'subaru']
+print(v_cars)
+v_cars.sort()
+print(v_cars)
+print(sorted(v_cars))
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
