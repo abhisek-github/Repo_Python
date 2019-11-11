@@ -185,6 +185,10 @@ v_cars = ['Bmw', 'audi', 'Toyota', "chai","bmw",'subaru']
 v_cars.reverse()
 print(v_cars)
 
+#Length of the strig
+
+print(len(v_cars))
+
 
 
 
