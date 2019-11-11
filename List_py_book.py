@@ -163,6 +163,8 @@ print(v_guest_list)
 v_guest_list.sort(reverse=False)
 print(v_guest_list)
 """
+# Example
+"""
 v_guest_list = ["Lucky","Adam","Blake","Scott","Allen","Miller","Jhon"]
 print("\nHere is the original list")
 print(v_guest_list)
@@ -175,6 +177,13 @@ print(v_cars)
 v_cars.sort()
 print(v_cars)
 print(sorted(v_cars))
+"""
+
+# Printing the list in reverse order.
+
+v_cars = ['Bmw', 'audi', 'Toyota', "chai","bmw",'subaru']
+v_cars.reverse()
+print(v_cars)
 
 
 
