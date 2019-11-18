@@ -180,14 +180,37 @@ print(sorted(v_cars))
 """
 
 # Printing the list in reverse order.
-
+"""
 v_cars = ['Bmw', 'audi', 'Toyota', "chai","bmw",'subaru']
 v_cars.reverse()
 print(v_cars)
-
-
-
-
+"""
+# Finding length of a list: 
+"""
+v_cars = ['Bmw', 'audi', 'Toyota', "chai","bmw",'subaru']
+print(len(v_cars))
+"""
+#Exercise:1
+v_place=["odisha","bhubaneswar","anugul","cuttactk","kuansh"]
+print(v_place)
+print("Sorted:--------------------------------------------------")
+print(sorted(v_place))
+print("original:--------------------------------------------------")
+print(v_place)
+v_place.reverse()
+print('reverse:----------------------------------------------------')
+print(v_place)
+v_place.reverse()
+print("reverse again:-----------------------------------------------")
+print(v_place)
+v_place.sort()
+print("sort the list:---------------------------------------------")
+print(v_place)
+v_place.sort(reverse=True)
+print("sort again:---------------------------------------------------")
+print(v_place)
+print("Length of the list:----------------------------------------")
+print(len(v_place))
 
 
 
