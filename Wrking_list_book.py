@@ -274,13 +274,22 @@ print(int(False))
 print(list(range(10)))
 """
 # Dictionary or Map
+"""
 dict={"Abhisek":"Asus","Biku":"OnePlus","Ara":"Samsung"}
 print(dict.keys())
 print(dict)
 print(dict.values())
-
-
-
+print(dict["Abhisek"])
+print(dict.get("Abhisek"))
+"""
+# Operators In Python
+x=2
+y=6
+z=True
+print(x>y or x!=y)
+print(x>y and x!=y)
+print(z)
+print(not z)
 
 
 
