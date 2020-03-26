@@ -1,0 +1,85 @@
+"""
+1.Tuple:
+A.This is same as list , but here we can't change the value .kind of immutable. 
+Syntax: tup = ("define values here")
+Example:
+test_tpl = ("ASJS","jnf","vjfnvf")
+print(test_tpl[0])
+for tpl in test_tpl:
+    print(tpl)
+o/p: 
+ASJS
+ASJS
+jnf
+vjfnvf
+
+2.Set:
+A.It's a collection of unique elements. we can define value with in {} 
+
+syntax: set_values = {12,34,545,66}
+
+Set never follows sequence order which we inserted. There is no ascending and descending order in set.
+
+Example: 
+
+v_set = {23,54,6,788,565,55,55,33}
+print(v_set) 
+
+o/p: {33, 6, 788, 565, 54, 23, 55} :It won't support duplicate values.
+As set uses a concept of "hash" .Using hash we improve the performance.Means fetch the element as fast as possible.
+
+Set won't support indexing , as it doesn't follow any order.
+
+Q> What is mutability means ?
+ans>Means we can change the content without changing there identity.
+
+3:Variable:
+
+#get the address of a variable value: 
+var = 4
+print(id(var)) # id() used to get the address of the variable .
+
+o/p:1747739792 this is the address of value which is "4" not "var" . Later in program we can re-assign a different value to the variable .
+
+If any value assigned by any variable and later in program we assign another value to the
+same variable the old value of that variable will handle by garbage collector[Next chapter will read more abt this]
+
+
+
+DATA TYPES IN Python:#===========================================================================================================================================
+
+None # In other programming it's null.
+Numeric
+List
+Tuple
+Set 
+String
+Range
+Dictionary or Map
+
+1.None: If a variable is not assigned with any value .
+2.Numeric:
+	1.Int # 1,2,3
+	2.float #3.2 ,4.5
+	3.Complex:[In simple term complex number is Number + Imaginary number]
+				Complex numbers are an extension of the familiar real number system in which all numbers are expressed as a 
+				sum of a real part and an imaginary part. ... Python has built-in support for complex numbers, 
+				which are written with this latter notation; the imaginary part is written with a j suffix, e.g., 3+1j.
+	4.Bool : 
+
+# Converting float into int:
+num = 4.5
+#print(num)
+#print(type(num))
+num2 = int(num) # converted to Int
+print(num2)
+print(type(num2))
+num1 = float(num)
+print(num1)
+print(type(num1)) #converted to float
+num3 = complex(num2,num1) # converted to complex
+print(num3)
+print(type(num3))
+
+
+"""
