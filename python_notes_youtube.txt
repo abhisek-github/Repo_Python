@@ -46,15 +46,15 @@ same variable the old value of that variable will handle by garbage collector[Ne
 
 
 
-DATA TYPES IN Python:#===========================================================================================================================================
+DATA TYPES IN Python:#=================================================================================================================================
 
 None # In other programming it's null.
 Numeric
-List
-Tuple
-Set 
-String
-Range
+	List-----
+	Tuple-----
+	Set -----  These data types comes under sequence
+	String----
+	Range----
 Dictionary or Map
 
 1.None: If a variable is not assigned with any value .
@@ -65,8 +65,16 @@ Dictionary or Map
 				Complex numbers are an extension of the familiar real number system in which all numbers are expressed as a 
 				sum of a real part and an imaginary part. ... Python has built-in support for complex numbers, 
 				which are written with this latter notation; the imaginary part is written with a j suffix, e.g., 3+1j.
-	4.Bool : 
-
+	4.Bool : True or false  . print(1>2).#o/p False
+	
+3.List : print(list(range(10))) # O/p [0,1,2,3,4,5,6,7,8,9]	
+4.Tuple: tp =(20,30,40) ,Print(type(tp)) #o/p <class 'tuple'>
+5.Set: st={10,20,30} ,Print(type(st)) #o/p <class 'set'>
+6.String: str="Abhi" ,Print(type(str)) #o/p <class 'str'>
+7.range: We can print a range of values by using this.
+	print(list(range(10))) #o/p [0,1,2,3,4,5,6,7,8,9]	
+	
+8.Dictionary or Map: In dictionary for every value we assign a key. Like in List we use Index.
 # Converting float into int:
 num = 4.5
 #print(num)
