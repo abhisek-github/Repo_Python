@@ -1,4 +1,4 @@
-"""
+
 1.Tuple:
 A.This is same as list , but here we can't change the value .kind of immutable. 
 Syntax: tup = ("define values here")
@@ -46,7 +46,7 @@ same variable the old value of that variable will handle by garbage collector[Ne
 
 
 
-DATA TYPES IN Python:#=================================================================================================================================
+DATA TYPES IN Python:# 26th-Mar-2020 [Video=10]=================================================================================================================================
 
 None # In other programming it's null.
 Numeric
@@ -59,13 +59,39 @@ Dictionary or Map
 
 1.None: If a variable is not assigned with any value .
 2.Numeric:
-	1.Int # 1,2,3
-	2.float #3.2 ,4.5
-	3.Complex:[In simple term complex number is Number + Imaginary number]
-				Complex numbers are an extension of the familiar real number system in which all numbers are expressed as a 
-				sum of a real part and an imaginary part. ... Python has built-in support for complex numbers, 
-				which are written with this latter notation; the imaginary part is written with a j suffix, e.g., 3+1j.
-	4.Bool : True or false  . print(1>2).#o/p False
+		1.Int # 1,2,3
+		2.float #3.2 ,4.5
+		3.Complex:[In simple term complex number is Number + Imaginary number]
+					Complex numbers are an extension of the familiar real number system in which all numbers are expressed as a 
+					sum of a real part and an imaginary part. ... Python has built-in support for complex numbers, 
+					which are written with this latter notation; the imaginary part is written with a j suffix, e.g., 3+1j.
+
+					# Converting float into int:
+					num = 4.5
+					#print(num)
+					#print(type(num))
+					num2 = int(num) # converted to Int
+					print(num2)
+					print(type(num2))
+					num1 = float(num)
+					print(num1)
+					print(type(num1)) #converted to float
+					num3 = complex(num2,num1) # converted to complex
+					print(num3)
+					print(type(num3))
+					"""
+					#Example:
+					"""
+					print(1>2)
+					print(int(True))
+					print(int(False))
+					print(list(range(10)))
+					
+		4.Bool : True or false  . print(1>2).#o/p False
+					print(1>2)
+					print(int(True))
+					print(int(False))
+					print(list(range(10)))
 	
 3.List : print(list(range(10))) # O/p [0,1,2,3,4,5,6,7,8,9]	
 4.Tuple: tp =(20,30,40) ,Print(type(tp)) #o/p <class 'tuple'>
@@ -74,20 +100,52 @@ Dictionary or Map
 7.range: We can print a range of values by using this.
 	print(list(range(10))) #o/p [0,1,2,3,4,5,6,7,8,9]	
 	
-8.Dictionary or Map: In dictionary for every value we assign a key. Like in List we use Index.
-# Converting float into int:
-num = 4.5
-#print(num)
-#print(type(num))
-num2 = int(num) # converted to Int
-print(num2)
-print(type(num2))
-num1 = float(num)
-print(num1)
-print(type(num1)) #converted to float
-num3 = complex(num2,num1) # converted to complex
-print(num3)
-print(type(num3))
+8.Dictionary or Map: In dictionary for every value we assign a key. Like in List we use Index. 
+						Here Key must be unique.
+						
+EX:# 	Dictionary or Map
+		dict={"Abhisek":"Asus","Biku":"OnePlus","Ara":"Samsung"}
+		print(dict.keys()) # dict_keys(['Abhisek', 'Biku', 'Ara'])
+		print(dict) # {'Abhisek': 'Asus', 'Biku': 'OnePlus', 'Ara': 'Samsung'}
+		print(dict.values()) # dict_values(['Asus', 'OnePlus', 'Samsung'])
+		print(dict["Abhisek"]) # Asus [Like Index in list ,here we can use key to fetch particular value]
+		or
+	   #We can use get() method
+		print(dict.get("Abhisek")) # Asus :Instead of using [] we can use get()
+		
+#====================================================================================================================================
+
+#Operators In Python:
+
+Types of operator in Python:
+1.Arithmatic # print(4/2) ,op 2
+2.Assignment # =, a=5
+3.Relational # >,<,== ,!=,<=,>=
+4.Logical # And, Or , Not 
+			x=2
+			y=6
+			print(x>y or x!=y)#True
+			print(x>y and x!=y)#False
+			# 		x	y	c		0= False	1=True
+					0	1	0			#Truth Table in Python for "And"
+					1	0	0			
+					0	0	0			
+					1	1	1			
+
+					x	y	c		0= False	1=True
+					0	1	1		#Truth Table in Python for "Or"	
+					1	0	1			
+					0	0	0			
+					1	1	1			
+								
+
+			z=True
+			print(z)# True
+			print(not z) #False
+
+5.Unary # n=7 ,n= -n op -7
 
 
-"""
+
+
+
